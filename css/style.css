@@ -1,0 +1,97 @@
+/* Author: Joseph Hammett */
+
+body {
+    font-family: 'Lora',serif;
+    font-size:15px;
+}
+.red {
+    color:rgb(240, 117, 117);
+}
+.red a {
+    color:rgb(240, 117, 117);
+}
+.red a:hover {
+    color:rgb(147, 108, 108);
+}
+.myButton {
+	background-color:rgb(240, 117, 117);;
+	border-radius:2px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+    text-decoration:none;
+    margin-bottom:20px;
+}
+.myButton:hover {
+	background-color:rgb(147, 108, 108);
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.about {
+    background-color:rgb(241, 241, 241);
+    padding-top:100px;
+    padding-bottom:100px;
+    margin-bottom:30px;
+}
+.space1 {
+    margin-bottom:30px;
+}
+.space2 {
+    margin-top:100px;
+}
+.bold {
+    font-size:20px;
+    font-weight:bold;
+}
+.centre {
+    text-align:center;
+}
+.tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    border-spacing: 2px;
+    border-color: grey;
+}
+h1 {
+    font-size:60px;
+    font-weight:bold;
+    font-family:Helvetica,Arial,sans-serif;
+}
+.item {
+    position: relative;
+}
+.hero {
+    margin:auto;
+}
+img {
+    margin:auto;
+}
+.header {
+    position: fixed;
+    width: 100%;
+    background: #eeeeee;
+    z-index:1000;
+    padding-top:20px;
+    padding-bottom:10px;
+}
+.pop {
+      font-size:20px;
+}
+
+/*@media (min-width:992px) and (max-width:1199px){
+    img.small{
+        width:20px;
+        height:20px;
+    }
+}*/
