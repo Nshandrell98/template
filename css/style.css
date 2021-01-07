@@ -88,6 +88,9 @@ img {
 .pop {
       font-size:20px;
 }
+.m2{
+    text-align: center;
+}
 
 /*@media (min-width:992px) and (max-width:1199px){
     img.small{
